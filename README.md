@@ -1,11 +1,15 @@
 🌤️ Weather Forecast Dashboard — Power BI
-1.Project Titlw
+
+1.Project Title
+
 A dynamic, real-time weather monitoring dashboard built with Microsoft Power BI, integrated with a free Weather API to display live weather data, air quality, and forecasts for multiple cities across India.
 
 2.📝 Short Description 
+
 The Weather Forecast Dashboard is a visually engaging and analytical Power BI report designed to help users monitor and explore real-time weather conditions across multiple Indian cities. The dashboard focuses on highlighting key weather metrics like temperature, air quality index, precipitation probability, and astronomical data. This tool is intended for daily personal use, academic projects, travel planners, and data enthusiasts who want to explore live API integration with Power BI.
 
 3.🛠️ Tech Stack
+
 The dashboard was built using the following tools and technologies:
 
 📊 Power BI Desktop — Main data visualization platform used for report creation
@@ -17,11 +21,13 @@ The dashboard was built using the following tools and technologies:
 
 
 4.🔌 Data Source
+
 Source: WeatherAPI.com — Free Tier
 Data is fetched in real time using Power BI's Web connector via HTTP GET requests. The API returns data in JSON format, which is parsed and transformed inside Power Query. The following endpoints are used:
 EndpointData Fetched/current.jsonLive temperature, humidity, wind speed, condition/forecast.json7-day forecast, hourly data, rain probability/forecast.json?aqi=yesPM10, PM2.5, SO2, O3, CO, NO2 air quality readings/astronomy.jsonSunrise, sunset, moonrise, moonset times
 
-5.✨ Features / Highlights
+5.✨ Features 
+
 🔴 Business Problem
 Weather information is scattered across multiple apps and platforms, and most tools don't allow users to compare weather conditions across cities in one unified view. Key questions such as:
 
@@ -90,5 +96,6 @@ Outdoor Scheduling — Rain probability charts help individuals and event planne
 Academic & Portfolio Use — Demonstrates real-world API integration, JSON transformation, and advanced DAX in Power BI — ideal for data analyst portfolios.
 
 6.Dasboard Overview
+
 ![Dashboard](image.png)
 
